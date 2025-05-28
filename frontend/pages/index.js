@@ -1,9 +1,13 @@
+
 import BackgroundParticles from "../components/BackgroundParticles";
 
 export default function Home() {
   return (
-    <main className="relative bg-[#0d1117] text-white flex flex-col items-center px-4">
-      <BackgroundParticles />
+   <main className="relative bg-[#0d1117] text-white flex flex-col items-center px-4">
+  <BackgroundParticles />
+  {/* ... your content ... */}
+
+
       {/* Hero Section */}
       <section className="min-h-screen flex flex-col justify-center items-center text-center max-w-2xl pt-20">
         <h1 className="text-4xl sm:text-5xl font-bold mb-4">
@@ -363,3 +367,4 @@ export default function Home() {
     </main>
   );
 }
+

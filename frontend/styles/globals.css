@@ -2,10 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Set dark theme by default */
 :root {
-  --background: #0f172a; /* dark navy background */
-  --foreground: #f8fafc; /* light text (Tailwind slate-50) */
+  --background: #0f172a;
+  --foreground: #f8fafc;
 }
 
 body {
